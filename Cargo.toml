@@ -1,0 +1,11 @@
+[package]
+name = "twitter_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+reqwest = {version="0.11.18", features = ["blocking", "json"] }
+serde_json = "1.0.99"
+tokio = {version="1.28.2", features=["macros"]}
+twitter-v2 = "0.1.8"
